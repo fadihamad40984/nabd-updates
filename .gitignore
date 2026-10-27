@@ -1,0 +1,16 @@
+# nabd-updates holds release assets only; nothing is committed besides
+# README.md and this file. Installers and update.json go into GitHub
+# RELEASES (as assets), never into the git history.
+*
+!.gitignore
+!README.md
+
+# Never, anywhere near this repo:
+*.key
+*.pem
+*.pfx
+*.p12
+*.env
+*.local.json
+*.clinicbackup
+*.sqlite
